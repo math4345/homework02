@@ -14,6 +14,8 @@ def s02p03 (h : y = 2 * x) : x + y = 3 * x := by
 def s02p04 : x + 0 = x := by 
   sorry
 
+-- Recall that in lecture, we defined `mynat`, our own natural numbers.
+
 inductive mynat where
   | zero : mynat
   | succ (n : mynat) : mynat
